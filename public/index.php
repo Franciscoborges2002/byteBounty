@@ -1,5 +1,7 @@
 <?php
 
+//First file that is loaded
+
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
