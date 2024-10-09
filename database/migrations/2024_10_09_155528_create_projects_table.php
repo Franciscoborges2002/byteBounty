@@ -19,7 +19,7 @@ return new class extends Migration {
             $table->dateTime('ends_at');
             $table->string('status')->default('open');
             $table->json('tech_stack');
-            $table->unasignedTinyInteger('dificulty');
+            $table->unsignedTinyInteger('dificulty');
             $table->foreignIdFor(User::class, 'created_by')->constrained('users');
             $table->timestamps();
         });
