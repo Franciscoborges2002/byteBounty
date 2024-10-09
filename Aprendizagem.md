@@ -34,5 +34,8 @@ Parte lógica da aplicação
 ### Migration
 php artisan migrate:fresh dar refresh as migrations
 
+### Arrays
+Quando temos um array/json, temos de criar no modelo um fuuncao de cast, para alterar sempre que entrar ou sai da bd
+
 ## Gerar avatars
 https://avatar.iran.liara.run/public
